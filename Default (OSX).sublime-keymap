@@ -36,6 +36,9 @@
       ]
     }
   },
-  { "keys": ["super+shift+e"], "command": "erb" }
+  { "keys": ["super+shift+e"], "command": "erb" },
+  { "keys": ["super+shift+,"], "command": "git_gutter_next_change" },
+  { "keys": ["super+shift+."], "command": "git_gutter_prev_change" },
 
+  { "keys": ["super+shift+r"], "command": "run_macro_file", "args": {"file": "Packages/User/rspec_describe.sublime-macro"} }
 ]
