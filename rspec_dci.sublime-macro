@@ -38,6 +38,94 @@
 	{
 		"args":
 		{
+			"characters": " di"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args":
+		{
+			"characters": "o"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n\ned"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args":
+		{
+			"characters": "nd"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args": null,
+		"command": "reindent"
+	},
+	{
+		"args":
+		{
+			"characters": "d"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args":
+		{
+			"characters": "context"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": " "
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"contents": "'$0'"
+		},
+		"command": "insert_snippet"
+	},
+	{
+		"args":
+		{
+			"by": "characters",
+			"forward": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
 			"characters": " do"
 		},
 		"command": "insert"
@@ -45,7 +133,43 @@
 	{
 		"args":
 		{
-			"characters": "\nit"
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "end"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"to": "eol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "	it"
 		},
 		"command": "insert"
 	},
@@ -88,13 +212,6 @@
 	{
 		"args":
 		{
-			"characters": "\nend"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
 			"by": "lines",
 			"forward": false
 		},
@@ -113,14 +230,6 @@
 		{
 			"by": "lines",
 			"forward": false
-		},
-		"command": "move"
-	},
-	{
-		"args":
-		{
-			"by": "wordends",
-			"forward": true
 		},
 		"command": "move"
 	},
@@ -136,61 +245,6 @@
 		"args":
 		{
 			"by": "characters",
-			"forward": false
-		},
-		"command": "move"
-	},
-	{
-		"args":
-		{
-			"by": "lines",
-			"forward": true
-		},
-		"command": "move"
-	},
-	{
-		"args":
-		{
-			"by": "lines",
-			"forward": true
-		},
-		"command": "move"
-	},
-	{
-		"args":
-		{
-			"file": "Packages/Default/Add Line Before.sublime-macro"
-		},
-		"command": "run_macro_file"
-	},
-	{
-		"args":
-		{
-			"by": "lines",
-			"forward": false
-		},
-		"command": "move"
-	},
-	{
-		"args":
-		{
-			"by": "lines",
-			"forward": false
-		},
-		"command": "move"
-	},
-	{
-		"args":
-		{
-			"by": "wordends",
-			"forward": true
-		},
-		"command": "move"
-	},
-	{
-		"args":
-		{
-			"by": "wordends",
 			"forward": true
 		},
 		"command": "move"
@@ -199,7 +253,7 @@
 		"args":
 		{
 			"by": "characters",
-			"forward": false
+			"forward": true
 		},
 		"command": "move"
 	}

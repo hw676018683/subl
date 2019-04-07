@@ -5,17 +5,22 @@
 	],
 	"installed_packages":
 	[
+		"All Autocomplete",
+		"Case Conversion",
 		"Chain of Command",
 		"CoffeeScript",
+		"Emmet",
 		"Git",
 		"GitGutter",
-		"HTML Compressor",
-		"HTMLAttributes",
+		"HTML-CSS-JS Prettify",
 		"Package Control",
 		"Pretty JSON",
+		"Rails Latest Migration",
 		"Ruby Slim",
 		"SCSS",
 		"SublimeERB",
-		"TrailingSpaces"
+		"Theme - Toxin",
+		"TrailingSpaces",
+		"WakaTime"
 	]
 }

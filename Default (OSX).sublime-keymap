@@ -24,7 +24,7 @@
   { "keys": ["super+."], "command": "next_view_in_stack" },
   { "keys": ["super+,"], "command": "prev_view_in_stack" },
   { "keys": ["super+shift+m"], "command": "toggle_minimap" },
-  { "keys": ["super+shift+c"], "command": "close_window" },
+  { "keys": ["super+g"], "command": "close_window" },
   { "keys": ["super+shift+l"], "command": "expand_selection {\"to\": \"scope\"}"},
   {
     "keys": ["super+s"],
@@ -40,5 +40,9 @@
   { "keys": ["super+shift+,"], "command": "git_gutter_next_change" },
   { "keys": ["super+shift+."], "command": "git_gutter_prev_change" },
 
-  { "keys": ["super+shift+r"], "command": "run_macro_file", "args": {"file": "Packages/User/rspec_describe.sublime-macro"} }
+  { "keys": ["super+shift+r"], "command": "run_macro_file", "args": {"file": "Packages/User/rspec_describe.sublime-macro"} },
+  { "keys": ["super+shift+i"], "command": "run_macro_file", "args": {"file": "Packages/User/rspec_describe_2.sublime-macro"} },
+  { "keys": ["super+0"], "command": "beautify_ruby" },
+  { "keys": ["super+shift+c"], "command": "copy" },
+  { "keys": ["super+shift+="], "command": "toggle_snake_camel_pascal" }
 ]

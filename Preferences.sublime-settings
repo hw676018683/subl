@@ -1,9 +1,25 @@
 {
+	"binary_file_patterns":
+	[
+		"tmp/",
+		".bundle/",
+		".vagrant/",
+		"node_modules/"
+	],
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-	"font_size": 16.0,
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 18.0,
 	"ignored_packages":
 	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
 	],
 	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true
 }
